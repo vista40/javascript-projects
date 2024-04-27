@@ -35,3 +35,4 @@ console.log(daysToMoon);
 // Print the results of the trip to the moon below
 message = (shuttleName + " will take " + daysToMoon + " days to reach the moon.");
 console.log(message);
+
