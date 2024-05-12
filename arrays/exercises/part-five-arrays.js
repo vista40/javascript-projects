@@ -16,4 +16,5 @@ let cargoHold = "water,space suits,food,plasma sword,batteries";
 let cargoHoldArr = cargoHold.split("," );
 console.log(cargoHoldArr);
 console.log(cargoHoldArr.sort());
+console.log(cargoHOldArr.sort());
 console.log(cargoHoldArr.join("--"));
