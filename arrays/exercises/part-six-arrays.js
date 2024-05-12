@@ -21,4 +21,5 @@ let catHair = ['long hair', 'short hair', 'hairless'];
 let catAttitude = ['social', 'shy', 'mean'];
 let catTable = [catColors, catHair, catAttitude];
 console.log(catTable);
+console.log(catTable);
 console.log(catTable[0][1], catTable[1][0], catTable[2][1]);
