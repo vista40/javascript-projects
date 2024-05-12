@@ -15,3 +15,4 @@ holdCabinet1.reverse();
 console.log(holdCabinet1);
 holdCabinet2.sort()
 console.log(holdCabinet2);
+console.log(holdCabinet2);
