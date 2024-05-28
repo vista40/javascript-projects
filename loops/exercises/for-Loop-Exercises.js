@@ -46,14 +46,15 @@ for (let i = 0; i < arrayPractice.length; i++) {
   a. One array contains the even numbers, and the other holds the odds.
   b. Print the arrays to confirm the results. */
   let originalArray = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
-  let evensArray = [ ','];
-  let oddsArray = [ ',' ];
+  let evensArray = [];
+  let oddsArray = [];
 
   for (let i = 0; i < originalArray.length; i++) {
     if (originalArray[i] % 2 === 0) {
-      evensArray += originalArray[i]
-    } else {
-      oddsArray += originalArray[i]
+      evensArray.push(originalArray[i]);
+    } 
+      else {
+      oddsArray.push(originalArray[i]);
     }
   }
   console.log(evensArray);
