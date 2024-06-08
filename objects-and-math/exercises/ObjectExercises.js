@@ -85,7 +85,7 @@ crewReports(crew);
       }
       return results; 
    }
- 
+   
 fitnessTest(crew);
 console.log(results);
 
