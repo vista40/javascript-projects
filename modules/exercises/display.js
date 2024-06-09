@@ -16,7 +16,7 @@ function printAll(names, tests, scores){
     }
     console.log(row);
   }
-  return;
+  // return;
 }
 
 function printStudentScores(index,students,tests,scores){
@@ -34,3 +34,5 @@ function printTestScores(index,test,students,scores){
   }
   return;
 }
+
+module.exports = printAll;
