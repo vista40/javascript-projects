@@ -18,4 +18,11 @@ fox.color = 'red';
 console.log(fox);
 console.log(fox.age, fox.color);
 
+fox.age = 20;
+fox.color = "orange";
+fox.size = "large";
+
+console.log(fox);
+console.log(fox.age, fox.color, fox.size);
+
 //Try modifying or adding properties below.
