@@ -61,4 +61,4 @@ console.log(topSecret);
 console.log(pridePrejudice);
 console.log(pridePrejudice.novelDiscard());
 pridePrejudice.timesCheckedOut = 37;
-console.log(pridePrejudice);
+console.log(pridePrejudice); 
