@@ -34,7 +34,6 @@ window.addEventListener("load", () => {
   left.addEventListener("click", moveLeft);
   right.addEventListener("click", moveRight);
   up.addEventListener("click", moveUp);
-
   rocket.style.position = "absolute";
   rocket.style.left = "0px";
   rocket.style.top = "0px";
@@ -42,14 +41,12 @@ window.addEventListener("load", () => {
     rocket.style.top = parseInt(rocket.style.top) - 10 + "px";
     spaceheight.innerHTML = parseInt(spaceheight.innerHTML) + 10000;
   }
-
   function moveLeft() {
     rocket.style.left = parseInt(rocket.style.left) - 10 + "px";
   }
   function moveRight() {
     rocket.style.left = parseInt(rocket.style.left) + 10 + "px";
   }
-
   function moveDown() {
     rocket.style.top = parseInt(rocket.style.top) + 10 + "px";
     spaceheight.innerHTML = parseInt(spaceheight.innerHTML) - 10000;

@@ -1,5 +1,5 @@
 // Declare and assign the variables below
-<<<<<<< HEAD
+
 let milesToMars=139725000
 let milesPerHour=17500
 let hoursToMars=milesToMars/milesPerHour
@@ -11,17 +11,17 @@ console.log(typeof milesToMars);
 console.log(typeof milesToMars);
 console.log(typeof hoursToMars);
 console.log(typeof hoursToMars)
-=======
-let shuttleName = "Vista";
+
+
 let shuttleSpeedMPH = 17500;
 
 let distanceToMarsKm = 225000000;
 let distanceToMoonKm = 384400;
 const milesPerKm = 0.621;
-let milesToMars = 13972500;
-let hoursToMars = milesToMars / shuttleSpeedMPH;
+
+
 console.log(hoursToMars);
-let daysToMars = hoursToMars / 24;
+
 console.log(daysToMars);
 
 // Use console.log to print the 'typeof' each variable. Print one item per line.
@@ -32,7 +32,7 @@ console.log(typeof distanceToMoonKm);
 console.log(typeof milesToMars);
 console.log(typeof daysToMars);
 console.log(typeof hoursToMars);
->>>>>>> 30d56ce2d03ca6b80b774f96ca8d11dc1689d0be
+
 
 // Calculate a space mission below
 console.log("shuttleName," "will, take" "daysToMars," "to reach Mars.");
