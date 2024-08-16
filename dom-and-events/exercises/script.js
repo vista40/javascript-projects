@@ -19,5 +19,4 @@ function init() {
     paragraph.innerHTML = "Mission aborted! Space shuttle returning home";
   });
 }
-
 window.addEventListener("load", init);

@@ -1,6 +1,5 @@
 function myFunction() {
-    let i = 10;
-    return 10 + i;
+  let i = 10;
+  return console.log(10 + i);
 }
-
-console.log(myFunction());
+myFunction();
